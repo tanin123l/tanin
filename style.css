@@ -1,5 +1,6 @@
 		body{
 				margin:0;
+				padding:0;
 				background:olivedrab;
 				}
 				
@@ -7,6 +8,7 @@
 				width:900px;
 				margin:0 auto;
 				background:white;
+				box-sizing:border-box;
 				//border:2px solid white;
 				box-shadow:0 0 10px black;
 				
@@ -18,8 +20,9 @@
 				padding:10px;
 				font-size:40px;
 				color:white;
-				font-family:arial;				
-				width:880px;
+				font-family:arial;
+				box-sizing:border-box;
+				width:100%;
 			}
 			
 				#header-left{
@@ -53,6 +56,7 @@
 				background:darkkhaki;
 				width:100%;
 				font-size:16px;
+				box-sizing:border-box;
 				
 			}
 			
@@ -71,13 +75,15 @@
 				background:floralwhite;
 				min-height:500px;
 				clear:both;
+				box-sizing:border-box;
 			}
 			
 			#mainContent{
 				width:80%;
-				padding:100%;
+				padding:20px;
 				float:left;
 				border-right:10px solid white;
+				box-sizing:border-box;
 			}
 			
 			#data{
@@ -105,6 +111,7 @@
 				width:18%;
 				padding:1%;
 				float:left;
+				box-sizing:border-box;
 				
 			}
 			#sidebar a{
@@ -119,6 +126,8 @@
 				padding:10px;
 				color:white;
 				font-size:14px;
+				box-sizing:border-box;
+				width:100%;
 			}
 			
 			
