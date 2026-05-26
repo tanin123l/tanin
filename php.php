@@ -26,7 +26,7 @@
 			<a href="html.html">HTML</a>
 			<a href="css.html">CSS</a>
 			<a href="javascript.html">JAVA SCRIPT</a>
-			<a href="php.php">PHP</a>
+			<a href="php.html">PHP</a>
 			<a href="contact.html">CONTACT</a>
 			
 			
@@ -137,7 +137,7 @@
 			
 		</div>
 		<div id="footer">
-			Copyright © 2012,   Md. Tahsin Tanin
+			Copyright Â© 2012,   Md. Tahsin Tanin
 		</div>
 		
 	</div>
