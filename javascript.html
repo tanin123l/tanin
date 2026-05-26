@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+	<head>		
+		<title>T A N I N</title>
+		
+<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="icon" href="favicon1.jpg">
+<script type="text/javascript">
+
+
+function displayDate()
+{
+document.getElementById("date").innerHTML=Date();
+}
+
+
+function changecolor()
+{
+	document.getElementById("content").style.backgroundColor='moccasin';
+	document.getElementById("demo").innerHTML= "<b> Body color changed !</b>";
+}
+
+
+function show_alert()
+{
+alert("This website is for my Second assignment");
+}
+
+function show_confirm()
+
+{
+var r=confirm("Is this assignment is good?");
+if (r==true)
+{
+alert("Thank you for 'OK'");
+}
+else
+{
+alert("You pressed 'Cancel'");
+}
+}
+
+
+function show_prompt()
+{
+var name=prompt("Please enter your name","Tanin");
+if (name!=null && name!="")
+  {
+  document.write("<p>Hello " + name + "! How are you today?</p>");
+  }
+}
+
+
+
+
+</Script>
+
+
+	</head>
+
+<body>
+
+	<div id="layout">
+	
+<div id="header"> 
+		<div id="header-left">
+			<img src="aublogo.gif">  
+		</div>
+		
+		<div id="header-right">Internet Programming</br>
+			<font size="5px">Assignment # 2</font> 
+		</div>
+		<div class="clear"> </div>
+	</div>
+	
+		<div id="menu">
+			<a href="index.html">HOME</a>
+			<a href="html.html">HTML</a>
+			<a href="css.html">CSS</a>
+			<a href="javascript.html">JAVA SCRIPT</a>
+			<a href="php.php">PHP</a>
+			<a href="contact.html">CONTACT</a>
+			
+			
+		</div>
+		<div id="content">
+			<div id="mainContent"><h1>JAVA SCRIPT</h1>
+				
+				Here i've tried to making some popup box... 
+				
+				<br/><br/>
+				
+			<p><font color="olive" id="date">Show:</font></p>
+			<button type="button" onclick="displayDate()">Date and Time</button>
+			
+			
+			<button  onclick="changecolor()" id="demo" >Change my body color</button>
+			
+						
+			<button type="button" onclick="show_alert()">Take an alert</button>
+				
+					
+			<button type="button" onclick="show_confirm()">Confirmation</button> 
+			
+			
+			<input type="button" onclick="show_prompt()" value="Prompt Box" />
+		
+		</br></br>
+		
+	
+	
+	
+		<font size="4"><b>Your Browser Information</b></font> 
+		
+		</br>
+		
+			
+		<div id="example"></div>
+	
+				<script type="text/javascript">
+					txt = "Browser CodeName			: " + navigator.appCodeName + "</br>";
+					txt+= "Browser Version 			: " + navigator.appVersion + "</br>";
+					txt+= "Cookies Enabled 			: " + navigator.cookieEnabled + "</br>";
+					txt+= "Platform 				: " + navigator.platform + "</br>";
+					txt+= "User-agent header		: " + navigator.userAgent + "</br>";
+
+					document.getElementById("example").innerHTML=txt;
+				
+				</script> 
+	
+	
+	</br>
+			
+			</div>
+			<div id="sidebar">
+			
+				<a href="">Home</a>
+				<a href="">Home</a>
+				<a href="">Home</a>
+				
+				
+			</div>
+			<div class="clear"></div>
+			
+		</div>
+		<div id="footer">
+			Copyright © 2012,   Md. Tahsin Tanin 
+		</div>
+		
+	</div>
+	
+</body>
+</html>
+
